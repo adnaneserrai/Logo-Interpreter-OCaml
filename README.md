@@ -43,17 +43,17 @@ The goal was to build a functional interpreter for the Logo language, allowing a
 
 2\. Compile the project:
 
-&#x20;  ```bash
+```bash
 
 &#x20;  make
 
-&#x20;  ```
+```
 
 3\. Run the interpreter with a Logo file:
 
-&#x20;  ```bash
+```bash
 
 &#x20;  ./logo < your\_script.logo
 
-&#x20;  ```
+```
 
