@@ -45,7 +45,7 @@ The goal was to build a functional interpreter for the Logo language, allowing a
 
 ```bash
 
-&#x20;  make
+   make
 
 ```
 
@@ -53,7 +53,7 @@ The goal was to build a functional interpreter for the Logo language, allowing a
 
 ```bash
 
-&#x20;  ./logo < your\_script.logo
+   ./logo < your\_script.logo
 
 ```
 
