@@ -65,7 +65,7 @@ let () =
       print_string ":> " ; flush stdout
     done
   with
-  | Quit ->
+  | Quit | End_of_input ->
      print_string "À bientôt !" ;
      print_newline () ;
      close_turtle () ;

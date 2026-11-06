@@ -54,7 +54,11 @@ make
 ./repl_logo
 ```
 
-Then type (or paste) a program at the `:>` prompt, ending it with `.`, for example the content of [`examples/polygon.logo`](examples/polygon.logo). Press `Ctrl+C` to quit.
+Then type a program at the `:>` prompt, ending it with `.`. Press `Ctrl+D` (end of input) to quit. You can also run a file:
+
+```bash
+./repl_logo < ../examples/polygon.logo
+```
 
 By default the turtle runs in text mode and its position is printed after each program. To get a graphical window, install the OCaml `graphics` library and follow the comments at the top of [`src/Makefile`](src/Makefile).
 

@@ -16,6 +16,13 @@ open Turtle_graphic
 ;;
 *)
 
+(*----------------------------------------------*)
+(* Levée par l'analyseur syntaxique quand il ne *)
+(* reste plus rien à lire (fin de l'entrée)     *)
+(*----------------------------------------------*)
+exception End_of_input
+;;
+
 (*--------------------------------------------*)
 (* type pour représenter l'état de la mémoire *)
 (* La mémoire est l'ensemble des liaisons     *)

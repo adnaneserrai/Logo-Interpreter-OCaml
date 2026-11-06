@@ -48,6 +48,7 @@ open Logo_ast
 main:
   | instruction POINT { $1 }
   | instruction EOF   { $1 }
+  | EOF               { raise End_of_input }
 ;
 
 instruction:
