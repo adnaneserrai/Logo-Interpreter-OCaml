@@ -1,0 +1,8 @@
+-- carre sans boucle
+Efface ;-- on place la tortue au bon endroit
+Avance 200 ; Gauche 90 ; Avance 100; Dessine ;-- on avance et on tourne a angle droit quatre fois de suite
+Avance 100 ; Gauche 90; Avance 100; Gauche 90;
+Avance 100; Gauche 90; Avance 100; Gauche 90 .
+
+; Pareil que précedement dans la q5 de l'Exo01 ça ne fonctionne pas Lorsqu'on utilise 
+; ./repl_logo < test_1.logo
